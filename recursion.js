@@ -36,7 +36,6 @@ function countdown(s) {
     }
     console.log(s + "...")
     return countdown(s - 1)
-    
 }
 
 countdown(10)
